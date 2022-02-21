@@ -1,0 +1,11 @@
+.header {
+	@apply flex flex-nowrap justify-between h-[50px] items-center border-b border-wordle-color-tone-4;
+}
+
+.header p {
+	@apply text-4xl font-bold uppercase tracking-widest;
+}
+
+.menu button {
+	@apply p-2;
+}

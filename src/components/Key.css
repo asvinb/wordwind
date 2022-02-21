@@ -1,0 +1,27 @@
+.keyboard__key {
+	@apply w-11 h-14 rounded bg-gray-300 uppercase font-bold mr-1.5;
+}
+
+.keyboard__key:last-child {
+	@apply mr-0;
+}
+
+.keyboard__key--is-valid {
+	@apply bg-wordle-yellow text-white;
+}
+
+.keyboard__key--is-invalid {
+	@apply bg-wordle-color-tone-2 text-white;
+}
+
+.keyboard__key--is-correct {
+	@apply bg-wordle-green text-white;
+}
+
+.keyboard__key--is-larger {
+	@apply w-16 text-center;
+}
+
+.keyboard__key--is-larger svg {
+	@apply mx-auto;
+}

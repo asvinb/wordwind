@@ -1,0 +1,19 @@
+.overlay {
+	@apply flex absolute w-full h-full top-0 left-0 bg-white z-50;
+}
+
+.overlay__container {
+	@apply max-w-[500px] mx-auto px-8 w-full h-full overflow-y-auto relative;
+}
+
+.overlay__container header {
+	@apply py-3 relative;
+}
+
+.overlay h1 {
+	@apply text-base text-center font-bold uppercase tracking-[0.5px];
+}
+
+.overlay__close {
+	@apply absolute top-0 right-0 cursor-pointer mt-3;
+}

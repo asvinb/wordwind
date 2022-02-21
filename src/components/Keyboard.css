@@ -1,0 +1,7 @@
+.keyboard {
+	@apply grid gap-y-2 p-2;
+}
+
+.keyboard__row {
+	@apply flex flex-nowrap justify-center;
+}

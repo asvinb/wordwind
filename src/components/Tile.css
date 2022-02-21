@@ -1,0 +1,19 @@
+.tile {
+	@apply font-bold text-3xl flex justify-center items-center uppercase border-2 h-16 w-16 border-gray-300;
+}
+
+.tile--is-not-empty {
+	@apply border-stone-500;
+}
+
+.tile--is-valid {
+	@apply bg-wordle-yellow text-white border-wordle-yellow;
+}
+
+.tile--is-invalid {
+	@apply bg-wordle-color-tone-2 text-white border-wordle-color-tone-2;
+}
+
+.tile--is-correct {
+	@apply bg-wordle-green text-white border-wordle-green;
+}
