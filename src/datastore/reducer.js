@@ -4,7 +4,7 @@
 import produce from 'immer';
 
 export const initialState = {
-	word: 'bread',
+	word: 'react',
 	attempts: [],
 	maximumAttempts: 6,
 };

@@ -27,7 +27,7 @@ const Header = () => {
 					<HelpIcon width={ 24 } height={ 24 } />
 				</Button>
 			</div>
-			<p>wordwind</p>
+			<p>wordevin</p>
 			<div className="menu">
 				<Button>
 					<StatisticsIcon width={ 24 } height={ 24 } />
